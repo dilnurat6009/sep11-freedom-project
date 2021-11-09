@@ -2,71 +2,24 @@
 ## Arrays
 ##### 10/19/2021
 
-## Context/Basics
-Over the past couple of weeks working on "arrays" has been interesting. It was tough to get a hand on it at first but over tasks, and assignments we did it became more clear. From my experience I can now say that an array is a variable that is used to store multiple values/data. With arrays you can make things like: grocery list, to do list, goals, bucket list, books to read, etc. With the function array we can personalize our list by adding, removing, and even changing our items. Writing javascript to make an array was definatly something different. Compared to my pervious learnings of HTML, CSS we did not use numbers or backets very much, but in this case it was very important because it was essential. 
+### Tool
+The past couple of weeks, especially Sundays we have been thinking and tinkering with possible websites we want to use for our year-long project. Going through website after website I looked at many sites, played around, and skimmed through the examples given. I have now come to be in a good place where I have an idea as to what I want to do and the websites I feel comfortables using. As of today, I decided that I want to use the website [https://threejs.org(three.js)]. My main thought when choosing a website to learn was to choose the easiest website, but then after looking at a lot of them I realized that all the websites need the same amount of effort and determination to learn. Therefore, I stuck with the website that personally caught my eye. Three.JS is used to make many things from 3d images to games, 2d images, etc. Going through each of their examples was an adventure because of how intriguing or fun they were. 
 
-## Arrays + Javascript
-* All array lists are encloseed with brackets. Brackets are very important especially in when making arrays because brackets contain elements or variables.
-``` JS
-  var practice = prompt[1]
-```
+### Idea
+Following days, after examing most of the displays I began to better think of what I wanted to make. My first idea was to make a planning organizer that allowed people to add, remove, check things off, however, my idea did not fit the purposes of the website. There were far better websites specifically designed for this project and this website was just not one of the tools I needed. Being influenced by other people's images I brainstormed something interesting, I told myself that I want to make either a 3d image of a beating heart that beats/pumps up and down or an optical illusion that spins/moves slowly. By the end of the day, I chose the 3d image of a heart because that is something that I already kind of have pictured in my head, and how it would turn out. 
 
-* There are some things that I needed to know/keep in mind when I made arrays. Inside arrays we use quotatoin marks or in other words known as strings/"". The function string is used to represent text.  
-``` JS
-  alert("hello")
+Though I haven't started coding, I read through two articles on the page [(https://threejsfundamentals.org(fundamentals)]. Some of the little things I learned along the way of fiddling with given code is: 
 ```
-The result of this code would be: hello
+const intenisty =  3; /// the higher the number the more the base color disapears, and starts flashing instead
+const fov = 100; /// the higher the number the further away the camera is from the cubes (makes its seem smaller)
 
-* To make a simple array the code would look like: 
-``` JS
-var dessert = ["tiramisu, ice-cream, cheesecake"];
-```
-As a result on our screen I would expect to see;
-  tiramisu, ice-cream, cheesecake
+cube.rotation.x = rot
+cube.rotation.y = rot
+``` 
+^
+This piece of code is what is used to make a 3d image move. When commenting these two functions out the image turned flat and was no longer 3d. 
 
-* To point out something certain in my list, I would usually count starting from 1 and so forward. However, in javascript the numbers/index begins with 0. 
-For example using the dessert example I have above, there are 3 things on the list (tiramisu, icecream, cheesecake). First on the list would generally be tiramisu and second icecream, etc. If I wanted to point out "Cheesecake" using javascript it would look something like:
- 
- ``` JS
- var dessert = ["tiramisu, ice-cream, cheesecake"];
- var secondItem = dessert[2]
-```
 
-```
- Regular                                     Javascript
- 1 tiramisu                                  0 tiramisu
- 2 icecream      -------->                   1 icecream
- 2 cheesecake                                2 cheesecake
- ```
- As a result the ouput would be cheesecake
- 
+### Challenges: 
 
-## Direct Changes to the List
-
-Example Data: 
-``` JS
-var practice = [4,7,9,18]
-```
-```
-          Code      What does it do?                      Example                 Output
-          push       adds to the end                  practice.push(12)           4,7,9,18,12   
-          pop       removes data from the end         practice.pop()              4,7,9
-          shift     removes data from beginning       practice.shift()            7,9,18
-         unshift    adds to the beginning             practice.unshift(27)        27,4,7,9,18
- ```
- 
- 
- ## Struggles 
- The Grocery List parnter activity was something that was enjoyable but my partner and I definatly needed a push at certain moments. Specfically, Task #2 asked us to create a var that would delete the last item on the list by notifiying the user with whats being removed. To begin me and my partner Marisol did have an idea as to what had to be used. Because it was asking us to *remove from the end* that meant we had to use ```JS .pop ``` element. I remember trying is variation of code:
- ``` JS
- var lastItem = grocerylist.pop();
- alert("removing :")
-```
-Though this code was working to delete the last item on the list, it was not notifying the user of what was being removed, it simply just said removed and deleted the last item. We tried a couple of other things like adding brackets with numbers. However, when we wrote the index # of the item it simply did not make sense because the # would change frequently when adding or removing things from the list. We then asked William to check our work and advise us. He told us that in order for the name of the item to appear we had to specify the variable in the parenthesis. By writing down the variable in the parenthesis, that would tell Java to *remove lastItem*. This makes sense because I added another variable and sent the function to pop, therefore, thats the factor that actually removed. My final code eneded up looking like:
-``` JS
-var lastItem = groceryList.pop();
-alert("Removing: " + lastItem)
-```
-[Next](entry02.md)
-
-[Home](../README.md)
+In conclusion, though it definitely took a lot of time to figure out what I wanted to do, after finally deciding I am planning to work on doing more research as to figuring out how to better function this website. One of my biggest challenges throughout the period of tinkering would be reading and starting my research. I looked at a lot of readings and youtube videos, and something I did not like was how long it was. I tried skimming through but that was not working out because it's hard to understand one concept if you can't even understand the base. I learned with patience that I need to take my time carefully reading or else I would miss out on something important. Jotting down bullet points or notes helps a lot now and in the future so that was one of the quickest ways I turned to so I don't forget in the future. 
